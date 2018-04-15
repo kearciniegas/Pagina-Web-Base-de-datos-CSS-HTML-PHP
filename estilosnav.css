@@ -1,0 +1,52 @@
+
+.contenedor {
+	width:90%;/*ancho*/
+	max-width:1000px;
+	margin:auto;
+}
+
+header {
+	position: relative;
+	height:auto;/*alto*/
+}
+
+header .menu {
+	background:rgba(255,255,255,.7);
+	overflow: hidden; /*rebozar oculto*/
+}
+
+header .logo {
+	color:rgba(0,0,0,.8);
+	float:left;/*flotar izquierda*/
+	font-size:30px;
+	line-height:80px;/*espacio de la fuente*/
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color:rgba(0,0,0,.8);
+	text-decoration: none;
+	display: block;/*linea ancha de pantalla*/
+	font-size:18px;
+	padding:0 20px;
+	line-height:80px;
+}
+
+header nav ul li:hover {
+	background:rgba(0,0,0,.8);
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}

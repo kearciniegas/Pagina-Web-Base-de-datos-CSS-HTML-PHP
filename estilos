@@ -1,0 +1,103 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background:url(bg.jpg), #000;
+	background-size: cover;
+	background-attachment:fixed;
+
+}
+
+
+h1 {
+	color:#fff;
+	position:relative;
+	padding:100px 0px;
+	text-align: center;
+	font-weight: 600; /* el grosor del text*/
+	font-size: 70px;
+	height: 40px;
+}
+.tx {
+	font-family: oswald, helvetica, arial, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	height: 30px;
+
+}
+
+table{
+	color: #fff;
+	 font-size: 20px;    
+	 margin: 45px;     
+	 width: 480px; 
+	 text-align: center;    
+	 border-collapse: collapse
+}
+th {     
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 8px;     
+	
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+td {    
+	padding: 8px;     
+	     
+	border-bottom: 1px solid #fff;
+    color: #fff;    
+    border-top: 1px solid transparent; 
+}
+
+td:hover  { 
+
+	background: #d0dafd; 
+	color: #339; 
+
+}
+.botones, .imput {
+
+   background: black;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding: 10px;
+
+
+}
+
+input.boton {
+	background: silver;
+	border-radius: 15px; 
+	height: 40px;
+	width: 150px;
+	background-color: #C0C0C0;
+	color: white;
+	font-family: oswald, helvetica, arial, sans-serif;
+	font-size: 20px;
+
+}
+
+.boton:hover{
+	background: #00FFFF; 
+	color: #339; 
+
+}
+input{
+	border-radius: 3px;
+	font-family: oswald, helvetica, arial, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	text-decoration:none
+}
